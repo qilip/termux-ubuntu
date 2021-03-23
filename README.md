@@ -11,7 +11,7 @@ mkdir ~/ubuntu-dir
 cd ~/ubuntu-dir
 ```
 
-3. 다운로드& 실행
+3. 다운로드& 실행 (Ubuntu Bionic 18.04 LTS)
 ```bash
 wget https://raw.githubusercontent.com/qilip/termux-ubuntu/master/ubuntu.sh
 bash ubuntu.sh
