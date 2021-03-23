@@ -1,20 +1,23 @@
 # termux-ubuntu
 
-A script to install Ubuntu chroot in Termux
-
-You need to install wget and proot in Termux before using this script.
-
-```
+1. wget, proot 설치
+```bash
 pkg install wget proot
 ```
 
-The script will make its files in the current directory. So if you want your Ubuntu-filesystem at a particular location switch to that folder first and then call the script with it's relative path. Example:
+2. 설치 폴더 생성
+```bash
+mkdir ~/ubuntu-dir
+cd ~/ubuntu-dir
 ```
-mkdir -p ~/jails/ubuntu
-cd ~/jails/ubuntu
-wget https://raw.githubusercontent.com/Neo-Oli/termux-ubuntu/master/ubuntu.sh
+
+3. 다운로드& 실행
+```bash
+wget https://raw.githubusercontent.com/qilip/termux-ubuntu/master/ubuntu.sh
 bash ubuntu.sh
 ```
 
-After running it you can run "start-ubuntu.sh" to switch into your ubuntu
-
+4. Ubuntu 실행
+```bash
+./start-ubuntu.sh
+```
